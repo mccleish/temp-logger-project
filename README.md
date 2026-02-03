@@ -4,7 +4,7 @@ A C++ simulation of a STM32 embedded system that reads temperature every 10 minu
 
 **Built for:** STM32F103 microcontroller  
 **Test environment:** QEMU, makefile for powershell
-**Language:** C++14
+**Language:** C++17
 
 ## Quick Start
 
