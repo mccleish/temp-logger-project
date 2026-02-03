@@ -121,11 +121,12 @@ make run                         # Runs in QEMU
 
 ## Hardware Deployment Path
 
+The code is limited because it is a simulation.
 To deploy on real STM32F103:
-1. Replace MockI2C
-2. Replace MockTimer
-3. Add linker script for flash/RAM layout
-4. Add startup code (already in src/startup.s)
+1. Replace MockI2C (limitation)
+2. Replace MockTimer (limitation)
+3. Add linker script for flash/RAM layout (limitation)
+4. Add startup code (already in src/startup.s) (limitation)
 5. Flash build/temp-logger.elf to microcontroller
 
 
