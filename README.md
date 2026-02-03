@@ -70,7 +70,7 @@ make run                         # Run in QEMU
 - Const-correct code throughout
 - No unbounded loops/recursion
 
-### ** Code Design **
+### **Code Design**
 - Separation of concerns:
   - I2C abstraction (II2CController interface)
   - Sensor drivers (TMP100, EEPROM24FC256)
